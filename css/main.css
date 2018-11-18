@@ -1,0 +1,43 @@
+/* CSS HEADER */
+
+/* SECTION HEADER */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-header {
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  z-index: 20;
+  color: white;
+  font-size: 280pt
+  font-family: "Arial", sans-serif;
+
+}
+.carousel-content {
+  position: absolute;
+  bottom: 25%;
+  left: 40%;
+  z-index: 20;
+  color: white;
+  font-family: "Arial", Times, sans-serif;
+
+}
+
+.carousel-content2 {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  z-index: 20;
+  color: white;
+  font-family: "Arial", Times, sans-serif;
+
+}

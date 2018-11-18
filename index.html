@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Adriana Cardenas</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
     <!-- CONSIDER:
         -mobile site, downsize animations
@@ -27,31 +29,82 @@
 
     <!-- education section, create picture of title, picture related to UT, visually pleasing features -->
 
-    <section>
-        <h1 id ="edu_section">EDUCATION2</h1>
+    <section id ="nav_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-            <p><i>(current)</i>
-            <br><strong>University of Texas</strong>
-            <br>Class of 2019
-            <br><i>Austin, TX</i></p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="https://www.linkedin.com/in/acard/">Linkedin<span class="sr-only">(current)</span></a>
+      </li>
+    <!--   <li class="nav-item active">
+        <a class="nav-link" href="#lab_section">Laboratory<span class="sr-only">(current)</span></a>
+      </li>
+    <!---  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          GO TO:
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      --->
+    </ul>
 
-        <p>B.S.A in Biochemistry
-        <br><a href="https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing" >Elements of Computing Certificate</a>
-        <br>Minor in Psychology</p>
+  </div>
+</nav>
+
+
+
+
+
 
     </section>
 
+    <section id ="carousel_section">
+        <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('image/elodie_seguin.jpg')">
+              <div class="carousel-header">
+              <h1 class="display-1"><i>Adriana Cardenas</i></h1>
+              </div>
+              <div class="carousel-content">
+                  <i>
+                  <h3>Technology</h3>
+                  <h3>Biochemistry</h3>
+                  <h3>Research</h3>
+                  </i>
+              </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('image/elodie_seguin2.jpg')">
+              <div class="carousel-content2">
+                  <h1><b>RESEARCH</b></h1>
+                  <i>
 
-    <!-- research section, create picture of title-->
 
-    <section>
-        <h1 id = "research_section">RESEARCH</h1>
-        <!-- center, header 2 font, its own page, cytochrome c oxidase model -->
-        <i>(current)</i>
-
-        <!-- current lab, strong emphasis on this -->
-        <h2>Gonzalez-Lima Lab</h2>
-            <h3>Texas Consortium of Behavioral Neuroscience</h3>
+            <h3>Gonzalez-Lima Lab</h3>
+            <h4>Texas Consortium of Behavioral Neuroscience</h4>
             <i>Undergraduate Research Assistant working under Lida Huang, PhD, Francisco Gonzalez-Lima, PhD</i>
 
             <!--- Script for cleaner view-->
@@ -73,8 +126,7 @@
                 <li><div><a href="https://labs.la.utexas.edu/gonzalez-lima/">Cognitive Enhancement in Adults, Ages 45 and over</a></div></li>
             </ol>
             </p>
-
-            <!-- -->
+                                     <!-- -->
             <p><b><i>Responsibilities (+)</i></b>
             <ul>
             <li>Systematized EEG data using MATLAB for further analysis of low level light therapy (LLT) versus EEG tone</li>
@@ -83,80 +135,42 @@
             <li>Ran participant visits and evaluated resulting therapeutic effects on cognitive function</li>
             <li>Investigated hemodynamic responses associated with neuron behavior using fNIRS</li>
             </ul>
+                  </i>
+              </div>
 
-        <!-- FRI section -->
 
-        <i>Aug 2014- June 2015</i>
-        <h2>Synthesis & Biological Recognition Stream</h2>
-        <h3>University of Texas Freshman Research Initiative</h3>
-        <i>Undergraduate Research Assistant</i>
-        <p>
-            <b><i>Focus (+)</i></b>
-            <ul>
-            <li><div>Investigated the design and synthesis of small organic molecules that have the potential to bind tightly to significant proteins </div></li>
-            <li><div>Mastery of quantitative titration and chromatography techniques</div></li>
-            <li><div>Introduction to protein modeling program pyMOL</div></li>
-            </ul>
-        </p>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('image/elodie_seguin3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Contact</h3>
+              <p>contact info</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+
 
 
     </section>
-    <section>
-        <h1 id="tech_section">TECHNOLOGY</h1>
-        <p>
-            <i>
-                <b>Systems (+)</b>
-            </i>
-            <ul>
-                <li>macOS</li>
-                <li>Windows</li>
-                <li>Linux</li>
-            </ul>
-            <br>
-            <i><b>Languages (+)</b></i>
-            <ul>
-                <li>Python (advanced)</li>
-                <li>R (intermediate)</li>
-                <li>HTML (intermediate)</li>
-                <li>pyMOL (basic)</li>
-                <li>MATLAB (basic)</li>
-            </ul>
-        </p>
-
-
-        <h1 id="lab_section">LABORATORY</h1>
-        <p>
-            <i><u><b>Techniques (+)</b></u></i>
-            <ul>
-                <li>Column chromatography</li>
-                <li>Filtration</li>
-                <li>Extraction</li>
-                <li>Gas chromatography</li>
-                <li>Nucleophilic substition</li>
-                <li>PCR/qPCR</li>
-                <li>Gel electrophoresis</li>
-                <li>Primer design</li>
-                <li>Protein binding visualization</li>
-                <li>Enzyme kinetics</li>
-                <li>Gene cloning and expression</li>
-                <li>Plasmid transformation</li>
-        </ul>
-        </p>
-        <i><u><b>Human Research (+)</b> </u></i>
-            <p>
-            <ul>
-
-            <li>Low level light therapy</li>
-            <li>EEG electrode application</li>
-            <li>EEG measuring</li>
-            <li>MoCA analysis</li>
 
 
 
-            </ul>
-            </p>
-    </section>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+
 </body>
 </html>
