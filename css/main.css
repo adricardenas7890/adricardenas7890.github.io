@@ -1,78 +1,86 @@
+/* BODY */
+
+/*This ensures the web page will reach full height and width of the page. Also you can throw in your font-family here rather than repeating.*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+
+}
+
 /* CSS HEADER */
+
 
 /* SECTION HEADER */
 
 .carousel-item {
   height: 100vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  text-align:center;
+  margin:auto;
+  padding:0;
   background-size: cover;
 }
 
 .carousel-header {
-  position: absolute;
   bottom: 40%;
   left: 40%;
-  z-index: 20;
+  z-index: 1;
   color: white;
-  font-size: 280pt
+  font-size: 280pt;
   font-family: "Arial", sans-serif;
+}
+
+.carousel-content {
+  z-index: 1;
+  color: white;
 
 }
-.carousel-content {
-  position: absolute;
-  bottom: 25%;
-  left: 40%;
-  z-index: 20;
-  color: white;
-  font-family: "Arial", Times, sans-serif;
 
+/* Slide 1 */
+
+.carousel-item__carousel-header--title {
+  font-style: italic;
+}
+
+.carousel-item__carousel-content--items {
+  margin-right: 8px;
+  font-style: italic;
 }
 
 .carousel-content2 {
-  position: absolute;
   bottom: 40%;
   left: 30%;
-  z-index: 20;
+  z-index: 1;
   color: white;
-  font-family: "Arial", Times, sans-serif;
-
 
 }
+
 .carousel-content3 {
-  position: absolute;
   bottom: 15%;
   left: 20%;
-  z-index: 20;
+  z-index: 1;
   color: white;
-  font-family: "Arial", Times, sans-serif;
-
-
 }
 
-}
 .carousel-content4 {
-  position: absolute;
   bottom: 80%;
   left: 80%;
-  z-index: 20;
+  z-index: 1;
   color: white;
-  font-family: "Arial", Times, sans-serif;
-
-
 }
 
 
 .carousel-brain {
-  position: absolute;
   bottom: 40%;
   left: 30%;
-  z-index: 20;
+  z-index: 1;
   color: white;
-  font-family: "Arial", Times, sans-serif;
-
 }
 
