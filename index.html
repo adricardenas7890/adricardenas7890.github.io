@@ -22,11 +22,28 @@
 
 </head>
 <body>
+    <section id ="nav_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="resume.html">RESUME<span class="sr-only">(current)</span></a>
+              </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="https://www.linkedin.com/in/acard/">LINKEDIN<span class="sr-only">(current)</span></a>
+              </li>
+                </ul>
 
+              </div>
+        </nav>
     </section>
 
-    <section id ="carousel_section">
+<section id ="carousel_section h-100">
         <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -36,37 +53,15 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-
-            <div class="carousel-item active" style="background-image: url('image/elodie_seguin.jpg')">
-            <section id ="nav_section">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                             </button>
-
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                 <a class="nav-link" href="resume.html">RESUME<span class="sr-only">(current)</span></a>
-                    </li>
-        <li class="nav-item active">
-        <a class="nav-link" href="https://www.linkedin.com/in/acard/">LINKEDIN<span class="sr-only">(current)</span></a>
-      </li>
-
-    </ul>
-
-  </div>
-</nav>
+          <!-- The image you have chosen here is really low resolution maybe you can maybe use a gradient which might be more slick -->
+          <div class="carousel-item active align-items-center" style="background-image: url('image/elodie_seguin.jpg')">
               <div class="carousel-header">
-                  <h1 class="display-1"><i><b>Adriana Cardenas</b></i></h1>
+                  <h1 class="carousel-item__carousel-header--title d-flex justify-content-center">Adriana Cardenas</h1>
               </div>
-              <div class="carousel-content">
-                  <i>
-                  <h3>Technology</h3>
-                  <h3>Biochemistry</h3>
-                  <h3>Research</h3>
-                  </i>
+              <div class="carousel-content d-flex justify-content-center">
+                  <h3 class="carousel-item__carousel-content--items">Technology</h3>
+                  <h3 class="carousel-item__carousel-content--items">Biochemistry</h3>
+                  <h3 class="carousel-item__carousel-content--items">Research</h3>
               </div>
           </div>
 
@@ -86,6 +81,7 @@
         <p>B.S.A in Biochemistry
         <br><a href="https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing" >Elements of Computing Certificate</a>
         <br>Minor in Psychology</p>
+
               </div>
 
 
@@ -156,12 +152,7 @@
       </div>
     </header>
 
-
-
-
     </section>
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
