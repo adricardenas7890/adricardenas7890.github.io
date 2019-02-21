@@ -2,10 +2,12 @@
 
 /*This ensures the web page will reach full height and width of the page. Also you can throw in your font-family here rather than repeating.*/
 
+
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin-left: 150px;
+  margin-top: 100px;
   padding: 0;
   font-family: "Arial", sans-serif;
   color: black;
