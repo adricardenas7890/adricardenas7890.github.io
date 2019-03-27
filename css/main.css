@@ -1,87 +1,217 @@
-/* BODY */
+/*
+fonts
+ */
 
-/*This ensures the web page will reach full height and width of the page.
-Also you can throw in your font-family here rather than repeating.*/
+html {
+    scroll-behavior: smooth;
+}
 
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
+.h1, h1 {
+    font-family: "Times New Roman"! important;
+    font-weight: bold;
+    font-size: 6vw;
 
 }
 
-/* CSS HEADER */
-
-
-
-/* SECTION HEADER */
-
-.carousel-item {
-  height: 100vh;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  text-align:center;
-  margin:auto;
-  padding:0;
-  background-size: cover;
-}
-
-.carousel-header {
-  bottom: 40%;
-  left: 40%;
-  z-index: 1;
-  color: #3a4f70;
-  font-size: 600pt;
-  font-family: "Arial", sans-serif;
-}
-
-.carousel-content {
-  z-index: 1;
-  color: black;
+.h2, h2 {
+    font-family: "Helvetica Neue"! important;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #575757 ! important;
 
 }
 
-/* Slide 1 */
-
-.carousel-item__carousel-header--title {
-  font-style: italic;
-}
-
-.carousel-item__carousel-content--items {
-  margin-right: 8px;
-  font-style: italic;
-}
-
-.carousel-content2 {
-  bottom: 40%;
-  left: 30%;
-  z-index: 1;
-  color: black;
+p {
+    font-family: "Futura"! important;
+    font-size: 2.7vw;
+    color: black;
 
 }
 
-.carousel-content3 {
-  bottom: 15%;
-  left: 20%;
-  z-index: 1;
-  color: black;
+p.about {
+    font-family: "Futura"! important;
+    font-size: 2vw;
+    color: black;
+
 }
 
-.carousel-content4 {
-  bottom: 80%;
-  left: 80%;
-  z-index: 1;
-  color: black;
+p.footer {
+    color: white;
+}
+
+.text-muted {
+    font-size:2vw;
+}
+/* navbar */
+
+nav {
+    border-bottom: 3px solid #000000;
+    background-color: #ffffff;
+    margin: 0 2.5%;
+    text-align: center;
 }
 
 
-.carousel-brain {
-  bottom: 40%;
-  left: 30%;
-  z-index: 1;
-  color: black;
-  }
+.navbar {
+    background-color: #ffffff! important;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('image/toggle_icon.png')! important;
+    background-size: 100%;
+    border-color: white;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: white;
+}
+
+.ml-auto {
+    margin-left: auto!important;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
+.nav-item {
+
+    margin-left: 20px;
+    justify-content: center;
+}
+
+a.nav-link {
+    font-size: 25px;
+    font-family: "Futura";
+    margin-right: 20px;
+    color: black! important;
+    justify-content: center;
+
+}
+
+a.nav-link-hidden {
+    font-size: 25px;
+    font-family: "Futura";
+    color: black! important;
+    justify-content: center;
+
+}
+
+a.nav-link:hover {
+    color: blue ! important;
+}
+
+
+/* content */
+
+.img-fluid {
+    max-width: 100%;
+    height: 95%;
+}
+
+.img-fluid2 {
+    max-width: 85%;
+    height: auto;
+    width: auto;
+}
+
+.img-fluid3 {
+    max-width: 50px;
+    height: auto;
+    width: auto;
+}
+
+/* containers */
+
+.container-name {
+    margin: 10%;
+    margin-top:11%;
+    margin-bottom: 5%;
+    background-color: #f9d3c5;
+    height: 40vh;
+    padding: 5%;
+}
+
+.pointer-row {
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 0%
+    justify-content: center;
+    padding: 0%;
+
+}
+
+.container-info {
+    margin: 10%;
+    margin-top:10%;
+    margin-bottom: 3%;
+    background-color: #f9cecc;
+    height: 80vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 3%;
+}
+
+.container-info2 {
+    margin: 10%;
+    margin-top:7%;
+    margin-bottom: 3%;
+    background-color: #f9ceed;
+    height: 80vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 3%;
+}
+
+.container-info3 {
+    margin: 10%;
+    margin-top:7%;
+    margin-bottom: 3%;
+    background-color: #e5e8f9;
+    height: 80vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 6%;
+}
+
+.container-about {
+    margin: 10%;
+    margin-top:10%;
+    margin-bottom: 3%;
+    background-color: #e5e8f9;
+    height: 65vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 3%;
+
+}
+
+.page-container {
+    overflow:hidden;
+    height: 90%;
+}
+
+.footer {
+    padding-top:5%;
+    height: 15vh;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+.within-footer {
+    margin: 10%;
+    margin-bottom: 0%;
+    margin-top: 7%
+
+}
+
+
+
+
