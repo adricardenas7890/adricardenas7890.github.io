@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5ff81e-b3d6-4958-8f14-f53d67bbc6c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/development.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/resume.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/brain.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/eeg_lab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/elodie_seguin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/elodie_seguin2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/elodie_seguin3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="211" column="10" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="10" />
+            <state relative-caret-position="339">
+              <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -215,12 +204,12 @@
       <updated>1542226621108</updated>
       <workItem from="1551568688389" duration="219000" />
       <workItem from="1551569682346" duration="643000" />
-      <workItem from="1553702067488" duration="8915000" />
+      <workItem from="1553702067488" duration="9666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9777000" />
+    <option name="totallyTimeSpent" value="10528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -378,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="211" column="10" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="10" />
+        <state relative-caret-position="339">
+          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
         </state>
       </provider>
     </entry>
