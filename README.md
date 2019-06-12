@@ -5,7 +5,7 @@ This website was originally built with Django 2.2 and modified for static Github
 https://adrianacardenas.me
 
 # Technologies
-HTML5
-CSS
+HTML5,
+CSS,
 Bootstrap4
 
