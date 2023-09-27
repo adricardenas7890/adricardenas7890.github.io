@@ -156,7 +156,7 @@ a.nav-link:hover {
     margin-top:10%;
     margin-bottom: 3%;
     background-color: #f9cecc;
-    height: 80vh;
+    height: 55vh;
     padding: 10%;
     padding-left:8%;
     padding-top: 3%;
@@ -167,7 +167,7 @@ a.nav-link:hover {
     margin-top:7%;
     margin-bottom: 3%;
     background-color: #f9ceed;
-    height: 120vh;
+    height: 70vh;
     padding: 10%;
     padding-left:8%;
     padding-top: 3%;
@@ -178,7 +178,39 @@ a.nav-link:hover {
     margin-top:7%;
     margin-bottom: 3%;
     background-color: #e5e8f9;
-    height: 80vh;
+    height: 55vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 6%;
+}
+.container-info4 {
+    margin: 10%;
+    margin-top:7%;
+    margin-bottom: 3%;
+    background-color: #cecfff;
+    height: 55vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 6%;
+}
+
+.container-info5 {
+    margin: 10%;
+    margin-top:7%;
+    margin-bottom: 3%;
+    background-color: #f9ceed;
+    height: 70vh;
+    padding: 10%;
+    padding-left:8%;
+    padding-top: 3%;
+}
+
+.container-info6 {
+    margin: 10%;
+    margin-top:7%;
+    margin-bottom: 3%;
+    background-color: #d0eeff;
+    height: 55vh;
     padding: 10%;
     padding-left:8%;
     padding-top: 6%;
